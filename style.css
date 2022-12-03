@@ -66,7 +66,7 @@ h5{
     font-weight: 500;
 }
 h6{
-    font-size: 7.6rem;
+    font-size: .6rem;
 }
 p{
     font-size: .86rem ;
@@ -375,4 +375,17 @@ main section.middle .card .bottom{
 main section.middle .card .bottom .right{
     display: flex;
     gap: 2rem;
+}
+/* monthly report */
+main .mountly-report{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+}
+main .mountly-report h1{
+    font-weight: 700;
+    font-size: 1.8rem;
 }
