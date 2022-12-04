@@ -389,3 +389,14 @@ main .mountly-report h1{
     font-weight: 700;
     font-size: 1.8rem;
 }
+/* fast payment */
+main .fast-payment{
+    margin-top: 2rem;
+    display: flex;
+    align-items:center;
+    gap: 2rem;
+}
+main .fast-payment .badges{
+    display: flex;
+    gap: 1rem;
+}
