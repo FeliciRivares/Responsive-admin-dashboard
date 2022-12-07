@@ -24,6 +24,15 @@
 --border-radius-1: 1rem;
 --border-radius-2: 6px;
 }
+/* dark theme variables */
+.dark-theme{
+    --color-white: #131316;
+    --color-light: #23232a;
+    --color-dark: #ddd;
+    --color-gray-dark:#adacb3;
+}
+
+
 
 
 *{
@@ -306,7 +315,7 @@ main section.middle .header{
     align-items:center;
     gap: 1rem;
 }
-main section.middle .header input[type='data']{
+main section.middle .header input[type='date']{
     padding: .5rem 2rem;
     border-radius: var(--border-radius-2);
     background: var(--color-light);
